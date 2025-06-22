@@ -1,10 +1,16 @@
+import { router } from "./routes";
 import "./App.css";
-
+import {RouterProvider} from 'react-router-dom'
 function App() {
   return (
-    <>
-      <h1 class="text-3xl font-bold underline text-center">Hello world!</h1>
-    </>
+    <div className="bg-slate-900 h-screen">
+      <div className="flex justify-center items-center h-screen">
+        <RouterProvider router={router}/>
+
+        
+        
+      </div>
+    </div>
   );
 }
 
