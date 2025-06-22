@@ -11,7 +11,7 @@ function LoginForm() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 px-4">
+    
       <div className="w-full max-w-md bg-white rounded-2xl shadow-md p-8">
         <h2 className="text-2xl font-bold mb-6 text-center">Login Form</h2>
 
@@ -19,7 +19,7 @@ function LoginForm() {
           <div>
             <label
               htmlFor="username"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-semibold text-gray-700"
             >
               Username
             </label>
@@ -37,7 +37,7 @@ function LoginForm() {
           <div>
             <label
               htmlFor="password"
-              className="block text-sm font-medium text-gray-700"
+              className="block text-sm font-semibold text-gray-700"
             >
               Password
             </label>
@@ -60,7 +60,7 @@ function LoginForm() {
           </button>
         </form>
       </div>
-    </div>
+    
   );
 }
 
